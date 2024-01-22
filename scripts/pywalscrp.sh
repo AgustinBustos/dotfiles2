@@ -2,5 +2,5 @@
 wal -i ~/Pictures/Wallpapers
 
 feh --bg-max "$(< "${HOME}/.cache/wal/wal")"
-
-#bash ~/scripts/thor-colors.sh
+#the following line in .bashrc
+#(cat ~/.cache/wal/sequences &)

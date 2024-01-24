@@ -1,0 +1,62 @@
+#set -as terminal-overrides ",*256col*:Tc"
+unbind C-b
+set -g prefix C-a
+#bind C-a send-prefix
+#setw -g mode-keys vi
+#bind h select-pane -L
+#bind j select-pane -D
+#bind k select-pane -U
+#bind l select-pane -R
+#setw -g mode-keys vi
+#bind-key -T copy-mode-vi 'v' send -X begin-selection
+#bind-key -T copy-mode-vi 'y' send -X copy-pipe-and-cancel "xclip -sel clip -i"
+
+#set -g status-bg default
+set-option -g status-style bg=default
+
+
+
+set -g mouse on
+setw -g mode-keys vi
+#set -as terminal-overrides ',xterm*:RGB'
+
+
+
+# Backgrounds
+#set -g window-style 'fg=colour250'
+#set -g window-active-style 'fg=colour255'
+
+#set -g window-style 'fg=colour5'
+#set -g window-active-style 'fg=colour5'
+
+#seemsgood
+#set -up window-style
+#set -up window-active-style
+
+
+
+
+#otheroption
+#set -g window-style 'fg=colour250,bg=colour233'
+#set -g window-active-style 'fg=colour255,bg=black'
+
+
+#set inactive/active window styles
+#set -g window-style 'fg=colour247,bg=colour236'
+#set -g window-active-style 'fg=colour250,bg=black'
+# set the pane border colors
+#set -g pane-border-style 'fg=colour235,bg=colour238'
+#set -g pane-active-border-style 'fg=colour51,bg=colour236'
+
+#set -g default-terminal 'screen-256color'
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+#set -g @plugin 'tmux-plugins/tmux-resurrect'
+#set -g @plugin 'tmux-plugins/tmux-continuum'
+
+
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'

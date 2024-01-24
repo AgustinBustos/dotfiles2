@@ -62,7 +62,7 @@ save_to_clipboard = false
 
 [window]
 dynamic_padding = true
-opacity = 0.98
+opacity = 1.0
 
 [window.class]
 general = "Alacritty"

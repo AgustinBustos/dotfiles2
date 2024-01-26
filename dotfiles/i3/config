@@ -238,9 +238,9 @@ exec --no-startup-id sh -c 'sleep 4; i3-msg "workspace 1; exec ala>
 
 exec rclone mount agus: ~/agus-drive
 exec rclone mount mfa-drive: ~/mfa-drive/user
-exec rclone mount mfa-drive2: ~/mfa-drive/Shared-drives/Clients
-exec rclone mount mfa-drive3: ~/mfa-drive/Shared-drives/Data
-exec rclone mount mfa-drive7: ~/mfa-drive/Shared-drives/Team-membe>
+exec rclone mount mfa-shared2: ~/mfa-drive/Shared-drives/Clients
+exec rclone mount mfa-shared3: ~/mfa-drive/Shared-drives/Data
+exec rclone mount mfa-shared7: ~/mfa-drive/Shared-drives/Team-membe>
 
 
 

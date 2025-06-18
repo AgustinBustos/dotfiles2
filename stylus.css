@@ -1,0 +1,43 @@
+body {
+    
+    --colab-border-color: #000;
+    --colab-primary-surface-color:black;
+}
+.editor.flex.lazy-editor {
+    background:rgba(0, 0, 0, 0.95);
+    
+}
+.cell-execution-container {
+    background:rgba(0, 0, 0, 0);
+}
+.notebook-content {
+     
+    background:rgba(0, 0, 0, 0);
+   
+}
+.notebook-container{
+    background:rgba(0, 0, 0, 0.95);
+    
+}
+.notebook-cell-list {
+    background:rgba(0, 0, 0, 0.0);
+    
+}
+#top-toolbar {
+    background:rgba(0, 0, 0, 1);
+    
+}
+
+.overflow-flexbox-workaround {
+    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x768.png?raw=true");
+    
+}
+
+.left-pane-top{
+    background:rgba(0, 0, 0, 0.95);
+    
+}
+.status-bar-ui-refresh {
+    background:rgba(0, 0, 0, 1);
+    
+}

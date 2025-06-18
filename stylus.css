@@ -7,9 +7,6 @@ body {
     background:rgba(0, 0, 0, 0.95);
     
 }
-.monaco-editor {
-    --vscode-editor-background:rgba(0, 0, 0, 0);
-}
 
 .margin-view-overlays {
     background:rgb(0, 0, 0);
@@ -22,19 +19,14 @@ body {
     background:rgb(27, 27, 27);
 }
 
-#run-button {
-    background:rgba(0, 0, 0, 0);
-    
-}
+
 .cell-gutter {
     background:rgb(0, 0, 0);
     
 }
-.cell-execution-container {
-    background:rgba(25, 0, 0, 0);
-}
+
 .code.focused:not(.cell-ui-refresh) .cell-gutter {
-    background: #7d0000;
+    background: #260000;
 }
 .notebook-content {
      

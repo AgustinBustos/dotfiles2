@@ -7,8 +7,31 @@ body {
     background:rgba(0, 0, 0, 0.95);
     
 }
-.cell-execution-container {
+.monaco-editor {
+    --vscode-editor-background:rgba(0, 0, 0, 0);
+}
+
+.margin-view-overlays {
+    background:rgb(0, 0, 0);
+}
+.inputarea.horizontal.layout.code {
+    background:rgb(0, 0, 0);
+    
+}
+.monaco-vim-statusbar {
+    background:rgb(27, 27, 27);
+}
+
+#run-button {
     background:rgba(0, 0, 0, 0);
+    
+}
+.cell-gutter {
+    background:rgba(0, 0, 0, 0);
+    
+}
+.cell-execution-container {
+    background:rgb(18, 0, 0);
 }
 .notebook-content {
      
@@ -29,7 +52,7 @@ body {
 }
 
 .overflow-flexbox-workaround {
-    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x768.png?raw=true");
+    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x7683.png?raw=true");
     
 }
 
@@ -37,6 +60,12 @@ body {
     background:rgba(0, 0, 0, 0.95);
     
 }
+.status-bar-ui-refresh {
+    background:rgba(0, 0, 0, 1);
+    
+}
+
+
 .status-bar-ui-refresh {
     background:rgba(0, 0, 0, 1);
     

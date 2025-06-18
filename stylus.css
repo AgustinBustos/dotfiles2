@@ -27,11 +27,14 @@ body {
     
 }
 .cell-gutter {
-    background:rgba(0, 0, 0, 0);
+    background:rgb(0, 0, 0);
     
 }
 .cell-execution-container {
-    background:rgb(18, 0, 0);
+    background:rgba(25, 0, 0, 0);
+}
+.code.focused:not(.cell-ui-refresh) .cell-gutter {
+    background: #7d0000;
 }
 .notebook-content {
      
@@ -61,12 +64,7 @@ body {
     
 }
 .status-bar-ui-refresh {
-    background:rgba(0, 0, 0, 1);
+    background:rgb(0, 0, 0);
     
 }
 
-
-.status-bar-ui-refresh {
-    background:rgba(0, 0, 0, 1);
-    
-}

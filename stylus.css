@@ -1,16 +1,14 @@
 body {
     
     --colab-border-color: #000;
-    --colab-primary-surface-color:#000;
+    --colab-primary-surface-color:black;
 }
-.overflow-flexbox-workaround {
-    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x768393.png?raw=true");
-    
-}
-
 .editor.flex.lazy-editor {
     background:rgba(0, 0, 0, 0.95);
     
+}
+.monaco-editor {
+    --vscode-editor-background:rgba(0, 0, 0, 0);
 }
 
 .margin-view-overlays {
@@ -24,21 +22,30 @@ body {
     background:rgb(27, 27, 27);
 }
 
-
+#run-button {
+    background:rgba(0, 0, 0, 0);
+    
+}
 .cell-gutter {
     background:rgb(0, 0, 0);
     
 }
-
+.cell-execution-container {
+    background:rgba(25, 0, 0, 0);
+}
 .code.focused:not(.cell-ui-refresh) .cell-gutter {
-    background: #260000;
+    background: #1f0707;
 }
 .notebook-content {
      
     background:rgba(0, 0, 0, 0);
    
 }
-
+/*
+.notebook-container{
+    background:rgba(0, 0, 0, 0.95);
+    
+}*/
 .notebook-cell-list {
     background:rgba(0, 0, 0, 0.0);
     
@@ -48,9 +55,10 @@ body {
     
 }
 
-
-
-
+.overflow-flexbox-workaround {
+    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x768393.png?raw=true");
+    
+}
 
 .left-pane-top{
     background:rgba(0, 0, 0, 0.95);
@@ -60,12 +68,3 @@ body {
     background:rgb(0, 0, 0);
     
 }
-.monaco-scrollable-element.editor-scrollable.vs-dark {
-    background:rgb(0, 0, 0);
-}
-/*
-.notebook-container{
-    background:rgba(0, 0, 0, 0.95);
-    
-}*/
-

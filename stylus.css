@@ -1,14 +1,15 @@
+
 body {
     
     --colab-border-color: #000;
     --colab-primary-surface-color:black;
 }
 .editor.flex.lazy-editor {
-    background:rgba(0, 0, 0, 0.95);
+    background:rgb(0, 0, 0);
     
 }
 .monaco-editor {
-    --vscode-editor-background:rgba(0, 0, 0, 0);
+    --vscode-editor-background:rgb(0, 0, 0);
 }
 
 .margin-view-overlays {
@@ -21,18 +22,20 @@ body {
 .monaco-vim-statusbar {
     background:rgb(27, 27, 27);
 }
-
+/*
 #run-button {
     background:rgba(0, 0, 0, 0);
     
-}
+}*/
 .cell-gutter {
     background:rgb(0, 0, 0);
     
 }
+
 .cell-execution-container {
-    background:rgba(25, 0, 0, 0);
+    background:rgba(25, 0, 0);
 }
+
 .code.focused:not(.cell-ui-refresh) .cell-gutter {
     background: #1f0707;
 }
@@ -47,11 +50,11 @@ body {
     
 }*/
 .notebook-cell-list {
-    background:rgba(0, 0, 0, 0.0);
+    background:rgba(255, 255, 255, 0);
     
 }
 #top-toolbar {
-    background:rgba(0, 0, 0, 1);
+    background:rgba(0, 0, 0);
     
 }
 
@@ -61,10 +64,11 @@ body {
 }
 
 .left-pane-top{
-    background:rgba(0, 0, 0, 0.95);
+    background:rgb(0, 0, 0);
     
 }
 .status-bar-ui-refresh {
     background:rgb(0, 0, 0);
     
 }
+

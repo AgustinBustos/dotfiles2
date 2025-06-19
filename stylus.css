@@ -1,8 +1,13 @@
 body {
     
     --colab-border-color: #000;
-    --colab-primary-surface-color:black;
+    --colab-primary-surface-color:#000;
 }
+.overflow-flexbox-workaround {
+    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x768393.png?raw=true");
+    
+}
+
 .editor.flex.lazy-editor {
     background:rgba(0, 0, 0, 0.95);
     
@@ -33,10 +38,7 @@ body {
     background:rgba(0, 0, 0, 0);
    
 }
-.notebook-container{
-    background:rgba(0, 0, 0, 0.95);
-    
-}
+
 .notebook-cell-list {
     background:rgba(0, 0, 0, 0.0);
     
@@ -46,10 +48,9 @@ body {
     
 }
 
-.overflow-flexbox-workaround {
-    background-image: url("https://github.com/AgustinBustos/dotfiles2/blob/main/Wallpapers/wallhaven-jxprdq_1366x7683.png?raw=true");
-    
-}
+
+
+
 
 .left-pane-top{
     background:rgba(0, 0, 0, 0.95);
@@ -59,4 +60,12 @@ body {
     background:rgb(0, 0, 0);
     
 }
+.monaco-scrollable-element.editor-scrollable.vs-dark {
+    background:rgb(0, 0, 0);
+}
+/*
+.notebook-container{
+    background:rgba(0, 0, 0, 0.95);
+    
+}*/
 

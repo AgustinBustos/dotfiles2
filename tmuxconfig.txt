@@ -12,8 +12,39 @@ set -g prefix C-a
 #bind-key -T copy-mode-vi 'y' send -X copy-pipe-and-cancel "xclip -sel clip -i"
 
 #set -g status-bg default
-set-option -g status-style bg=default
 
+#old
+#set-option -g status-style bg=default
+
+#possible
+#set -g mode-style bg=default, fg=default
+#set-window-option -g window-status-style bg=default,fg=default
+
+#one more
+#set -g pane-active-border-style bg=color0
+#set -g pane-border-style bg=color0
+#set-window-option -g window-active-style bg=terminal
+#set-window-option -g window-style bg=color0
+
+#i am tired
+#set -g pane-active-border-style bg=default
+#set -g pane-border-style bg=default
+#set-window-option -g window-active-style bg=terminal
+#set-window-option -g window-style bg=default
+
+#set -g window-style 'fg=colour250'
+#set -g window-active-style 'fg=colour255'
+
+
+#more
+#set-window-option -g window-active-style bg=terminal
+#set-window-option -g window-style bg=black
+#set-window-option -g window-status-style bg=default,fg=default
+#set-window-option -g window-status-current-style bg=default,fg=cyan
+#set-window-option -g window-status-activity-style bg=default,fg=yellow
+#set-window-option -g window-status-separator ""
+#set-window-option -g window-status-current-format " $path "
+#set-window-option -g window-status-format " $path "hh
 
 
 set -g mouse on
@@ -44,8 +75,8 @@ setw -g mode-keys vi
 #set inactive/active window styles
 #set -g window-style 'fg=colour247,bg=colour236'
 #set -g window-active-style 'fg=colour250,bg=black'
-# set the pane border colors
-#set -g pane-border-style 'fg=colour235,bg=colour238'
+# set the pane border colors 
+#set -g pane-border-style 'fg=colour235,bg=colour238' 
 #set -g pane-active-border-style 'fg=colour51,bg=colour236'
 
 #set -g default-terminal 'screen-256color'
@@ -60,3 +91,4 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
+

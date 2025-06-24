@@ -25,7 +25,8 @@ white   = '#ffffff'
 # #11121D #080932e6
 
 [colors.primary]
-background = "#030416"
+#background = "#030416"
+background = "#000000"
 foreground = "#a9b1d6"
 
 [font]

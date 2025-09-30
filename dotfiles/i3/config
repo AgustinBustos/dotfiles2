@@ -229,20 +229,23 @@ new_window pixel
 bindsym $mod+a exec "thorium-browser"
 bindsym $mod+t exec "thunar"
 bindsym $mod+c exec "code"
-bindsym $mod+o exec ~/scripts/haskell_creator.sh
+#bindsym $mod+o exec ~/scripts/haskell_creator.sh
+bindsym $mod+o exec "obsidian"
+
 #assign [class="Google-chrome"] 4
 
 #exec --no-startup-id i3-msg 'workspace 1; exec alacritty'
 #exec --no-startup-id i3-msg 'workspace 2; exec thorium-browser'
 
-exec --no-startup-id sh -c 'i3-msg "workspace 2; exec thorium-browser"'
-exec --no-startup-id sh -c 'sleep 4; i3-msg "workspace 1; exec alacritty"'
+exec --no-startup-id sh -c 'i3-msg "workspace 1; exec thorium-browser"'
+exec --no-startup-id sh -c 'sleep 4; i3-msg "workspace 2; exec alacritty"'
+exec --no-startup-id sh -c 'sleep 4; i3-msg "workspace 4; exec obsidian"'
 
-exec rclone mount agus: ~/agus-drive
-exec rclone mount mfa-drive: ~/mfa-drive/user
-exec rclone mount mfa-shared2: ~/mfa-drive/Shared-drives/Clients
-exec rclone mount mfa-shared3: ~/mfa-drive/Shared-drives/Data
-exec rclone mount mfa-shared7: ~/mfa-drive/Shared-drives/Team-members
+#exec rclone mount agus: ~/agus-drive
+#exec rclone mount mfa-drive: ~/mfa-drive/user
+#exec rclone mount mfa-shared2: ~/mfa-drive/Shared-drives/Clients
+#exec rclone mount mfa-shared3: ~/mfa-drive/Shared-drives/Data
+#exec rclone mount mfa-shared7: ~/mfa-drive/Shared-drives/Team-members
 
 bindsym $mod+x exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
 
